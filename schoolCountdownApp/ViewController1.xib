@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController1" customModule="schoolCountdownApp" customModuleProvider="target">
+            <connections>
+                <outlet property="dateLabel" destination="lUC-N5-DO2" id="dRF-vb-KHw"/>
+                <outlet property="markersLabel" destination="vfd-Ak-RAb" id="WEO-sh-5zo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="school-house-images-schoolhouse-clip-art-live-love-laugh-everyday-in-kindergarten--july-2011-pictures (1).jpg" translatesAutoresizingMaskIntoConstraints="NO" id="85j-fB-zJw">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lUC-N5-DO2">
+                    <rect key="frame" x="19" y="239" width="565" height="66"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="66" id="4m1-bx-JhC"/>
+                        <constraint firstAttribute="height" constant="73" id="7rG-6P-0rb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="1" green="0.14708020312503667" blue="0.18197916592016083" alpha="0.83855064655172418" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="7rG-6P-0rb"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfd-Ak-RAb">
+                    <rect key="frame" x="0.0" y="305" width="600" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="gMQ-W8-MeZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" red="1" green="0.1470802031" blue="0.18197916589999999" alpha="0.8385506466" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="lUC-N5-DO2" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="5f1-rD-RA2"/>
+                <constraint firstItem="lUC-N5-DO2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="topMargin" constant="231" id="84m-dq-Nme"/>
+                <constraint firstItem="vfd-Ak-RAb" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerYWithinMargins" id="CYa-XL-Dtz"/>
+                <constraint firstItem="lUC-N5-DO2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="Go5-h8-6LA"/>
+                <constraint firstItem="lUC-N5-DO2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" constant="11" id="HbF-dj-nWo"/>
+                <constraint firstItem="vfd-Ak-RAb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="topMargin" constant="297" id="Loh-es-qhK"/>
+                <constraint firstItem="lUC-N5-DO2" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerYWithinMargins" constant="-36" id="Nl3-dq-Xtc"/>
+                <constraint firstItem="85j-fB-zJw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" constant="-8" id="UE7-lj-7KB"/>
+                <constraint firstItem="lUC-N5-DO2" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="Vo5-li-UNe"/>
+                <constraint firstAttribute="trailingMargin" secondItem="lUC-N5-DO2" secondAttribute="trailing" constant="8" id="Y3z-QB-puu"/>
+                <constraint firstItem="lUC-N5-DO2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="242" id="YOq-6B-Ux1"/>
+                <constraint firstItem="85j-fB-zJw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="topMargin" constant="-8" id="cf9-1r-0BM"/>
+                <constraint firstAttribute="trailingMargin" secondItem="85j-fB-zJw" secondAttribute="trailing" constant="-8" id="gZL-D3-xmS"/>
+                <constraint firstItem="lUC-N5-DO2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="qu9-fk-rXN"/>
+                <constraint firstItem="85j-fB-zJw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sgt-JN-pjq"/>
+                <constraint firstAttribute="bottomMargin" secondItem="85j-fB-zJw" secondAttribute="bottom" constant="-8" id="st6-Or-AB3"/>
+                <constraint firstAttribute="trailing" secondItem="lUC-N5-DO2" secondAttribute="trailing" constant="8" id="w2F-71-3Mc"/>
+                <constraint firstItem="lUC-N5-DO2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerXWithinMargins" id="z30-QZ-4aw"/>
+                <constraint firstAttribute="trailingMargin" secondItem="vfd-Ak-RAb" secondAttribute="trailing" constant="-8" id="zEz-0o-5Mb"/>
+                <constraint firstItem="vfd-Ak-RAb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" constant="-8" id="zjn-hh-Xho"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="sgt-JN-pjq"/>
+                    <exclude reference="5f1-rD-RA2"/>
+                    <exclude reference="Go5-h8-6LA"/>
+                    <exclude reference="Vo5-li-UNe"/>
+                    <exclude reference="YOq-6B-Ux1"/>
+                    <exclude reference="qu9-fk-rXN"/>
+                    <exclude reference="w2F-71-3Mc"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="361" y="340"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="school-house-images-schoolhouse-clip-art-live-love-laugh-everyday-in-kindergarten--july-2011-pictures (1).jpg" width="1087" height="1600"/>
+    </resources>
+</document>
